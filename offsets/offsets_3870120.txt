@@ -1,0 +1,10 @@
+Marvel Rivals offsets
+Game version: 5.3.2-3870120+++depot_marvel+S10.0_release-Marvel
+Dump source: C:\Dumper-7\5.3.2-3870120+++depot_marvel+S10.0_release-Marvel
+
+GObjects        0x0F8FC870
+AppendString    0x00FA0FC0
+GNames          0x0F809D28
+GWorld          0x0FAA9DC8
+ProcessEvent    0x011A8580
+ProcessEventIdx 0x00000056

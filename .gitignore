@@ -37,3 +37,7 @@ x64/
 # Binaries
 *.exe
 *.dll
+
+# Large generated SDK folders
+SDK/
+SDK_s10_dumper7_incompatible/

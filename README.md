@@ -33,6 +33,7 @@ The script starts disabled.
 
 ## Notes
 
-The shared state is 48 bytes. The current game offsets are in `SDK/SDK/Basic.hpp`.
+The shared state is 48 bytes. The current game offsets are in `offsets/offsets_3870120.txt`.
+The full generated SDK is not included in this repository.
 
 This repository is private.
