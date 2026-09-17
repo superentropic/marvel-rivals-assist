@@ -1,0 +1,1556 @@
+=== C:\Program Files (x86)\Bloody7\Bloody7\Bloody7.exe ===
+ImageBase=0x400000 EntryPoint=0x63e8
+-- imports --
+0x1588694 KERNEL32.DLL!CancelIo
+0x1588698 KERNEL32.DLL!CloseHandle
+0x158869c KERNEL32.DLL!CompareStringW
+0x15886a0 KERNEL32.DLL!CopyFileW
+0x15886a4 KERNEL32.DLL!CreateDirectoryW
+0x15886a8 KERNEL32.DLL!CreateEventW
+0x15886ac KERNEL32.DLL!CreateFileA
+0x15886b0 KERNEL32.DLL!CreateFileW
+0x15886b4 KERNEL32.DLL!CreateMutexW
+0x15886b8 KERNEL32.DLL!CreateProcessW
+0x15886bc KERNEL32.DLL!CreateThread
+0x15886c0 KERNEL32.DLL!CreateToolhelp32Snapshot
+0x15886c4 KERNEL32.DLL!DeleteCriticalSection
+0x15886c8 KERNEL32.DLL!DeleteFileA
+0x15886cc KERNEL32.DLL!DeleteFileW
+0x15886d0 KERNEL32.DLL!EnterCriticalSection
+0x15886d4 KERNEL32.DLL!EnumCalendarInfoW
+0x15886d8 KERNEL32.DLL!EnumResourceNamesW
+0x15886dc KERNEL32.DLL!EnumSystemLocalesW
+0x15886e0 KERNEL32.DLL!ExitProcess
+0x15886e4 KERNEL32.DLL!ExitThread
+0x15886e8 KERNEL32.DLL!ExpandEnvironmentStringsW
+0x15886ec KERNEL32.DLL!FileTimeToDosDateTime
+0x15886f0 KERNEL32.DLL!FileTimeToLocalFileTime
+0x15886f4 KERNEL32.DLL!FileTimeToSystemTime
+0x15886f8 KERNEL32.DLL!FindClose
+0x15886fc KERNEL32.DLL!FindFirstFileW
+0x1588700 KERNEL32.DLL!FindNextFileW
+0x1588704 KERNEL32.DLL!FindResourceW
+0x1588708 KERNEL32.DLL!FoldStringW
+0x158870c KERNEL32.DLL!FormatMessageW
+0x1588710 KERNEL32.DLL!FreeEnvironmentStringsA
+0x1588714 KERNEL32.DLL!FreeEnvironmentStringsW
+0x1588718 KERNEL32.DLL!FreeLibrary
+0x158871c KERNEL32.DLL!FreeResource
+0x1588720 KERNEL32.DLL!GetACP
+0x1588724 KERNEL32.DLL!GetCPInfo
+0x1588728 KERNEL32.DLL!GetCPInfoExW
+0x158872c KERNEL32.DLL!GetCommandLineW
+0x1588730 KERNEL32.DLL!GetComputerNameW
+0x1588734 KERNEL32.DLL!GetConsoleCP
+0x1588738 KERNEL32.DLL!GetConsoleOutputCP
+0x158873c KERNEL32.DLL!GetCurrentDirectoryW
+0x1588740 KERNEL32.DLL!GetCurrentProcess
+0x1588744 KERNEL32.DLL!GetCurrentProcessId
+0x1588748 KERNEL32.DLL!GetCurrentThread
+0x158874c KERNEL32.DLL!GetCurrentThreadId
+0x1588750 KERNEL32.DLL!GetDateFormatW
+0x1588754 KERNEL32.DLL!GetDiskFreeSpaceW
+0x1588758 KERNEL32.DLL!GetDriveTypeW
+0x158875c KERNEL32.DLL!GetEnvironmentStrings
+0x1588760 KERNEL32.DLL!GetEnvironmentStringsW
+0x1588764 KERNEL32.DLL!GetEnvironmentVariableW
+0x1588768 KERNEL32.DLL!GetExitCodeThread
+0x158876c KERNEL32.DLL!GetFileAttributesA
+0x1588770 KERNEL32.DLL!GetFileAttributesW
+0x1588774 KERNEL32.DLL!GetFileInformationByHandle
+0x1588778 KERNEL32.DLL!GetFileSize
+0x158877c KERNEL32.DLL!GetFileTime
+0x1588780 KERNEL32.DLL!GetFileType
+0x1588784 KERNEL32.DLL!GetFullPathNameW
+0x1588788 KERNEL32.DLL!GetHandleInformation
+0x158878c KERNEL32.DLL!GetLastError
+0x1588790 KERNEL32.DLL!GetLocalTime
+0x1588794 KERNEL32.DLL!GetLocaleInfoA
+0x1588798 KERNEL32.DLL!GetLocaleInfoW
+0x158879c KERNEL32.DLL!GetLogicalDrives
+0x15887a0 KERNEL32.DLL!GetLongPathNameW
+0x15887a4 KERNEL32.DLL!GetModuleFileNameA
+0x15887a8 KERNEL32.DLL!GetModuleFileNameW
+0x15887ac KERNEL32.DLL!GetModuleHandleA
+0x15887b0 KERNEL32.DLL!GetModuleHandleW
+0x15887b4 KERNEL32.DLL!GetOEMCP
+0x15887b8 KERNEL32.DLL!GetPrivateProfileStringW
+0x15887bc KERNEL32.DLL!GetProcAddress
+0x15887c0 KERNEL32.DLL!GetProcessHeap
+0x15887c4 KERNEL32.DLL!GetStartupInfoA
+0x15887c8 KERNEL32.DLL!GetStartupInfoW
+0x15887cc KERNEL32.DLL!GetStdHandle
+0x15887d0 KERNEL32.DLL!GetStringTypeA
+0x15887d4 KERNEL32.DLL!GetStringTypeW
+0x15887d8 KERNEL32.DLL!GetSystemDefaultLCID
+0x15887dc KERNEL32.DLL!GetSystemDefaultLangID
+0x15887e0 KERNEL32.DLL!GetSystemDefaultUILanguage
+0x15887e4 KERNEL32.DLL!GetSystemInfo
+0x15887e8 KERNEL32.DLL!GetTempPathW
+0x15887ec KERNEL32.DLL!GetThreadLocale
+0x15887f0 KERNEL32.DLL!GetThreadPriority
+0x15887f4 KERNEL32.DLL!GetTickCount
+0x15887f8 KERNEL32.DLL!GetTimeZoneInformation
+0x15887fc KERNEL32.DLL!GetUserDefaultLCID
+0x1588800 KERNEL32.DLL!GetUserDefaultLangID
+0x1588804 KERNEL32.DLL!GetUserDefaultUILanguage
+0x1588808 KERNEL32.DLL!GetVersion
+0x158880c KERNEL32.DLL!GetVersionExA
+0x1588810 KERNEL32.DLL!GetVersionExW
+0x1588814 KERNEL32.DLL!GetVolumeInformationW
+0x1588818 KERNEL32.DLL!GlobalAddAtomW
+0x158881c KERNEL32.DLL!GlobalAlloc
+0x1588820 KERNEL32.DLL!GlobalDeleteAtom
+0x1588824 KERNEL32.DLL!GlobalFindAtomW
+0x1588828 KERNEL32.DLL!GlobalFree
+0x158882c KERNEL32.DLL!GlobalHandle
+0x1588830 KERNEL32.DLL!GlobalLock
+0x1588834 KERNEL32.DLL!GlobalSize
+0x1588838 KERNEL32.DLL!GlobalUnlock
+0x158883c KERNEL32.DLL!HeapAlloc
+0x1588840 KERNEL32.DLL!HeapCreate
+0x1588844 KERNEL32.DLL!HeapDestroy
+0x1588848 KERNEL32.DLL!HeapFree
+0x158884c KERNEL32.DLL!InitializeCriticalSection
+0x1588850 KERNEL32.DLL!InterlockedDecrement
+0x1588854 KERNEL32.DLL!InterlockedExchange
+0x1588858 KERNEL32.DLL!InterlockedIncrement
+0x158885c KERNEL32.DLL!IsDBCSLeadByteEx
+0x1588860 KERNEL32.DLL!IsDebuggerPresent
+0x1588864 KERNEL32.DLL!IsValidLocale
+0x1588868 KERNEL32.DLL!LCMapStringA
+0x158886c KERNEL32.DLL!LCMapStringW
+0x1588870 KERNEL32.DLL!LeaveCriticalSection
+0x1588874 KERNEL32.DLL!LoadLibraryA
+0x1588878 KERNEL32.DLL!LoadLibraryExW
+0x158887c KERNEL32.DLL!LoadLibraryW
+0x1588880 KERNEL32.DLL!LoadResource
+0x1588884 KERNEL32.DLL!LocalAlloc
+0x1588888 KERNEL32.DLL!LocalFree
+0x158888c KERNEL32.DLL!LockResource
+0x1588890 KERNEL32.DLL!MoveFileW
+0x1588894 KERNEL32.DLL!MulDiv
+0x1588898 KERNEL32.DLL!MultiByteToWideChar
+0x158889c KERNEL32.DLL!OpenProcess
+0x15888a0 KERNEL32.DLL!OutputDebugStringW
+0x15888a4 KERNEL32.DLL!Process32FirstW
+0x15888a8 KERNEL32.DLL!Process32NextW
+0x15888ac KERNEL32.DLL!QueryPerformanceCounter
+0x15888b0 KERNEL32.DLL!QueryPerformanceFrequency
+0x15888b4 KERNEL32.DLL!RaiseException
+0x15888b8 KERNEL32.DLL!ReadFile
+0x15888bc KERNEL32.DLL!RemoveDirectoryW
+0x15888c0 KERNEL32.DLL!ResetEvent
+0x15888c4 KERNEL32.DLL!ResumeThread
+0x15888c8 KERNEL32.DLL!RtlUnwind
+0x15888cc KERNEL32.DLL!SetConsoleCtrlHandler
+0x15888d0 KERNEL32.DLL!SetCurrentDirectoryW
+0x15888d4 KERNEL32.DLL!SetEndOfFile
+0x15888d8 KERNEL32.DLL!SetErrorMode
+0x15888dc KERNEL32.DLL!SetEvent
+0x15888e0 KERNEL32.DLL!SetFilePointer
+0x15888e4 KERNEL32.DLL!SetHandleCount
+0x15888e8 KERNEL32.DLL!SetLastError
+0x15888ec KERNEL32.DLL!SetThreadLocale
+0x15888f0 KERNEL32.DLL!SetThreadPriority
+0x15888f4 KERNEL32.DLL!SizeofResource
+0x15888f8 KERNEL32.DLL!Sleep
+0x15888fc KERNEL32.DLL!SuspendThread
+0x1588900 KERNEL32.DLL!SwitchToThread
+0x1588904 KERNEL32.DLL!SystemTimeToTzSpecificLocalTime
+0x1588908 KERNEL32.DLL!TerminateProcess
+0x158890c KERNEL32.DLL!TerminateThread
+0x1588910 KERNEL32.DLL!TlsAlloc
+0x1588914 KERNEL32.DLL!TlsFree
+0x1588918 KERNEL32.DLL!TlsGetValue
+0x158891c KERNEL32.DLL!TlsSetValue
+0x1588920 KERNEL32.DLL!TryEnterCriticalSection
+0x1588924 KERNEL32.DLL!UnhandledExceptionFilter
+0x1588928 KERNEL32.DLL!VerSetConditionMask
+0x158892c KERNEL32.DLL!VerifyVersionInfoW
+0x1588930 KERNEL32.DLL!VirtualAlloc
+0x1588934 KERNEL32.DLL!VirtualFree
+0x1588938 KERNEL32.DLL!VirtualQuery
+0x158893c KERNEL32.DLL!VirtualQueryEx
+0x1588940 KERNEL32.DLL!WaitForMultipleObjectsEx
+0x1588944 KERNEL32.DLL!WaitForSingleObject
+0x1588948 KERNEL32.DLL!WideCharToMultiByte
+0x158894c KERNEL32.DLL!WriteFile
+0x1588950 KERNEL32.DLL!WritePrivateProfileStringW
+0x1588954 KERNEL32.DLL!lstrcatW
+0x1588958 KERNEL32.DLL!lstrcmpA
+0x158895c KERNEL32.DLL!lstrcmpW
+0x1588960 KERNEL32.DLL!lstrcmpiA
+0x1588964 KERNEL32.DLL!lstrcmpiW
+0x1588968 KERNEL32.DLL!lstrcpyW
+0x158896c KERNEL32.DLL!lstrlenW
+0x15889cc WINSPOOL.DRV!DeviceCapabilitiesW
+0x1588e6c GDI32.DLL!GetDeviceCaps
+0x1589618 USER32.DLL!HideCaret
+0x15896e0 USER32.DLL!RegisterDeviceNotificationW
+0x15897c0 USER32.DLL!UnregisterDeviceNotification
+-- relevant strings --
+! Info DeviceExist
+!@:FORM_ImportExportBatchHIDDialog
+!bt_ImportKernel3CertificationFile
+%s does not allow hiding
+%s parameter cannot be nil0A StyleHook class has not been registered for %s#Feature not supported by this style
+&bt_ImportKernel3CertificationFileClick
+&Winapi.Devices.Bluetooth.Advertisement
+(TCustomHintShowHideThread.Execute$0$Intf
+(TCustomHintShowHideThread.Execute$ActRec
+(TList<System.Bluetooth.TBluetoothDevice>
+(TList<System.Bluetooth.TBluetoothDevice>&
+)TArray<System.Bluetooth.TBluetoothDevice>
+*.amc
+*.amc2
+*.bwp
+*GenericAttributeProfile_IGattDeviceService
+*TList<System.Bluetooth.TBluetoothLEDevice>&
+*TList<System.Bluetooth.TBluetoothLEDevice>t
++TArray<System.Bluetooth.TBluetoothLEDevice>
+,IComparer<System.Bluetooth.TBluetoothDevice>
+,Multiselect mode must be on for this feature7Length of value array must be >= length of prompt array
+,Report the mouse type information to Bloody.
+- UNKNOWN DEVICE!!
+-TWinBluetoothLEDevice.DoReadDescriptor$0$Intf
+-TWinBluetoothLEDevice.DoReadDescriptor$ActRec
+.amc2
+.IComparer<System.Bluetooth.TBluetoothLEDevice>
+.IEnumerable<System.Bluetooth.TBluetoothDevice><
+.TEnumerable<System.Bluetooth.TBluetoothDevice>
+.TEnumerable<System.Bluetooth.TBluetoothDevice>'
+.TEnumerator<System.Bluetooth.TBluetoothDevice>(
+.TEnumerator<System.Bluetooth.TBluetoothDevice>D`
+.TObjectList<System.Bluetooth.TBluetoothDevice>&
+.TObjectList<System.Bluetooth.TBluetoothDevice>p"
+.TWinBluetoothLEDevice.DoWriteDescriptor$0$Intf
+.TWinBluetoothLEDevice.DoWriteDescriptor$ActRec
+.TWinBluetoothLEDevice.DoWriteDescriptor$ActRecl
+/TWinRTBluetoothLEDevice.DoReadDescriptor$0$Intf
+/TWinRTBluetoothLEDevice.DoReadDescriptor$ActRec
+0IEnumerable<System.Bluetooth.TBluetoothLEDevice><
+0TEnumerable<System.Bluetooth.TBluetoothLEDevice>'
+0TEnumerable<System.Bluetooth.TBluetoothLEDevice>\
+0TEnumerator<System.Bluetooth.TBluetoothLEDevice>
+0TEnumerator<System.Bluetooth.TBluetoothLEDevice>(
+0TObjectList<System.Bluetooth.TBluetoothLEDevice>&
+0TObjectList<System.Bluetooth.TBluetoothLEDevice><v
+0TWinRTBluetoothLEDevice.DoWriteDescriptor$0$Intf
+0TWinRTBluetoothLEDevice.DoWriteDescriptor$ActRec
+0TWinRTBluetoothLEDevice.DoWriteDescriptor$ActRecT
+1TList<System.Bluetooth.TBluetoothDevice>.arrayofT
+1TWinBluetoothLEDevice.DoReadCharacteristic$0$Intf
+1TWinBluetoothLEDevice.DoReadCharacteristic$ActRec
+1TWinBluetoothLEDevice.DoReadCharacteristic$ActRecT
+2TList<System.Bluetooth.TBluetoothDevice>.ParrayofT
+2TWinBluetoothLEDevice.DoWriteCharacteristic$0$Intf
+2TWinBluetoothLEDevice.DoWriteCharacteristic$ActRec
+3TList<System.Bluetooth.TBluetoothDevice>.TEmptyFunc
+3TList<System.Bluetooth.TBluetoothLEDevice>.arrayofT
+3TWinRTBluetoothLEDevice.DoReadCharacteristic$0$Intf
+3TWinRTBluetoothLEDevice.DoReadCharacteristic$ActRec
+3TWinRTBluetoothLEDevice.DoReadCharacteristic$ActRec(
+4TList<System.Bluetooth.TBluetoothDevice>.TEnumerator
+4TList<System.Bluetooth.TBluetoothDevice>.TEnumerator5
+4TList<System.Bluetooth.TBluetoothLEDevice>.ParrayofT
+4TWinRTBluetoothLEDevice.DoWriteCharacteristic$0$Intf
+4TWinRTBluetoothLEDevice.DoWriteCharacteristic$ActRec
+5TList<System.Bluetooth.TBluetoothLEDevice>.TEmptyFunc
+5TypedEventHandler_2__IBluetoothLEDevice__IInspectable
+6TList<System.Bluetooth.TBluetoothLEDevice>.TEnumerator
+6TList<System.Bluetooth.TBluetoothLEDevice>.TEnumerator5
+7TList<System.Messaging.TMessageManager.TListenerWithId> c
+7TList<System.Messaging.TMessageManager.TListenerWithId>&
+8TArray<System.Messaging.TMessageManager.TListenerWithId>
+8TPair<System.string,System.Bluetooth.TBluetoothLEDevice>
+9IVectorView_1__GenericAttributeProfile_IGattDeviceService
+9TCollectionNotifyEvent<System.Bluetooth.TBluetoothDevice>
+:    Dongle=0x%.8X    Device=0x%.8X    Register==0x%.4X    Factory==0x%.4X %s
+:.TList`1.Pack[0]$0$Intf<System.Bluetooth.TBluetoothDevice>
+:.TList`1.Pack[1]$0$Intf<System.Bluetooth.TBluetoothDevice>
+:@TList`1.Pack[0]$ActRec<System.Bluetooth.TBluetoothDevice>
+:@TList`1.Pack[1]$ActRec<System.Bluetooth.TBluetoothDevice>
+:TWinBluetoothLEDevice.:1
+;IComparer<System.Messaging.TMessageManager.TListenerWithId>
+;TCollectionNotifyEvent<System.Bluetooth.TBluetoothLEDevice>
+<.TList`1.Pack[0]$0$Intf<System.Bluetooth.TBluetoothLEDevice>
+<.TList`1.Pack[1]$0$Intf<System.Bluetooth.TBluetoothLEDevice>
+<@TList`1.Pack[0]$ActRec<System.Bluetooth.TBluetoothLEDevice>
+<@TList`1.Pack[1]$ActRec<System.Bluetooth.TBluetoothLEDevice>
+=IEnumerable<System.Messaging.TMessageManager.TListenerWithId><
+=mi_AdvancedFeatures,Advanced.bmp,MainApp.TrayIconPopupMenu,mi_AdvancedFeatures
+=mi_DevicePair,DevicePair.bmp,MainApp.TrayIconPopupMenu,mi_DevicePair
+=mi_MacroManager,MacroManager.bmp,MainApp.TriggerSetPopupMenu,mi_MacroManager
+=mi_MediaPlayer,Macro.bmp,MainApp.TriggerSetPopupMenu,mi_MediaPlayer
+=mi_MultiDeviceManage,MultiDevice.bmp,MainApp.TrayIconPopupMenu,mi_MultiDeviceManage
+=mi_ProfileKey,Macro.bmp,MainApp.TriggerSetPopupMenu,mi_ProfileKey
+=mi_SelectMacroCheatsFile,UltraCombos.bmp,MainApp.TriggerSetPopupMenu,mi_SelectMacroCheatsFile
+=mi_SelectMacroFile,Macros.bmp,MainApp.TriggerSetPopupMenu,mi_SelectMacroFile
+=mi_ShootCtrlKey,Macros.bmp,MainApp.TriggerSetPopupMenu,mi_ShootCtrlKey
+=mi_ShootCtrlKey1,Macros.bmp,MainApp.TriggerSetPopupMenu,mi_ShootCtrlKey1
+=mi_ShootCtrlKey2,Macros.bmp,MainApp.TriggerSetPopupMenu,mi_ShootCtrlKey2
+=mi_ShootCtrlKey3,Macros.bmp,MainApp.TriggerSetPopupMenu,mi_ShootCtrlKey3
+=mi_ShootCtrlKey4,Macros.bmp,MainApp.TriggerSetPopupMenu,mi_ShootCtrlKey4
+=TEnumerable<System.Messaging.TMessageManager.TListenerWithId>'
+=TEnumerable<System.Messaging.TMessageManager.TListenerWithId>t\
+=TEnumerator<System.Messaging.TMessageManager.TListenerWithId>
+=TEnumerator<System.Messaging.TMessageManager.TListenerWithId>(
+>TDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>&
+>TDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>x
+@:FORM_DevicePairDialog
+@:FORM_DevicePairStartDialog
+@:FORM_DevicePairSuccessDialog
+@:FORM_MultiDeviceManageDialog
+@:FORM_ReportDialog
+@:IOM_HidThreadId7M
+@:IOM_UpgradeUsbDeviceThread
+@:MACROEDIT_Editline
+@:MACROEDIT_FileDialog
+@:MACROEDIT_InputBox
+@:MACROEDIT_Instructions
+@:MACROEDIT_Record
+@:MACROEDIT_SelectLine
+@:MACROEDIT_ShowIfMessage
+@:MACROEDIT_Statement
+@:TAB_DragMacroEditor
+@:TAB_KernelSystem
+@:TAB_MacroEditor
+@@Db_featuresstatistics@Finalize
+@@Db_featuresstatistics@Initialize
+@@Db_macroguncheat@Finalize
+@@Db_macroguncheat@Initialize
+@@File_macrocontent@Finalize
+@@File_macrocontent@Initialize
+@@Form_devicepairdialog@Finalize
+@@Form_devicepairdialog@Initialize
+@@Form_devicepairstartdialog@Finalize
+@@Form_devicepairstartdialog@Initialize
+@@Form_devicepairsuccessdialog@Finalize
+@@Form_devicepairsuccessdialog@Initialize
+@@Form_importexportbatchhiddialog@Finalize
+@@Form_importexportbatchhiddialog@Initialize
+@@Form_multidevicemanagedialog@Finalize
+@@Form_multidevicemanagedialog@Initialize
+@@Form_reportdialog@Finalize
+@@Form_reportdialog@Initialize
+@@Hid_basiccmd@Finalize
+@@Hid_basiccmd@Initialize
+@@Hid_cafe@Finalize
+@@Hid_cafe@Initialize
+@@Hid_dogkey@Finalize
+@@Hid_dogkey@Initialize
+@@Hid_dongle@Finalize
+@@Hid_dongle@Initialize
+@@Hid_donglemonitor@Finalize
+@@Hid_donglemonitor@Initialize
+@@Hid_donglepair@Finalize
+@@Hid_donglepair@Initialize
+@@Hid_donglepll@Finalize
+@@Hid_donglepll@Initialize
+@@Hid_flash@Finalize
+@@Hid_flash@Initialize
+@@Hid_flash_m0@Finalize
+@@Hid_flash_m0@Initialize
+@@Hid_flash_nor@Finalize
+@@Hid_flash_nor@Initialize
+@@Hid_irpt@Finalize
+@@Hid_irpt@Initialize
+@@Hid_keybdadc@Finalize
+@@Hid_keybdadc@Initialize
+@@Hid_led_m0@Finalize
+@@Hid_led_m0@Initialize
+@@Hid_major@Finalize
+@@Hid_major@Initialize
+@@Hid_oscar@Finalize
+@@Hid_oscar@Initialize
+@@Hid_oscardebug@Finalize
+@@Hid_oscardebug@Initialize
+@@Hid_oscarid7@Finalize
+@@Hid_oscarid7@Initialize
+@@Hid_oscarled@Finalize
+@@Hid_oscarled@Initialize
+@@Hid_producttest@Finalize
+@@Hid_producttest@Initialize
+@@Hid_ram@Finalize
+@@Hid_ram@Initialize
+@@Hid_ram_m0@Finalize
+@@Hid_ram_m0@Initialize
+@@Hid_register_m0@Finalize
+@@Hid_register_m0@Initialize
+@@Hid_sensorlift@Finalize
+@@Hid_sensorlift@Initialize
+@@Hid_simulator@Finalize
+@@Hid_simulator@Initialize
+@@Hid_sled@Finalize
+@@Hid_sled@Initialize
+@@Hid_wheel4d@Finalize
+@@Hid_wheel4d@Initialize
+@@Io_deviceevent@Finalize
+@@Io_deviceevent@Initialize
+@@Io_hid@Finalize
+@@Io_hid@Initialize
+@@Iom_hidthreadid7m@Finalize
+@@Iom_hidthreadid7m@Initialize
+@@Iom_multidevice@Finalize
+@@Iom_multidevice@Initialize
+@@Iom_upgradeusbdevicethread@Finalize
+@@Iom_upgradeusbdevicethread@Initialize
+@@Macroedit_editline@Finalize
+@@Macroedit_editline@Initialize
+@@Macroedit_filedialog@Finalize
+@@Macroedit_filedialog@Initialize
+@@Macroedit_hextenbin@Finalize
+@@Macroedit_hextenbin@Initialize
+@@Macroedit_hook@Finalize
+@@Macroedit_hook@Initialize
+@@Macroedit_inputbox@Finalize
+@@Macroedit_inputbox@Initialize
+@@Macroedit_instructions@Finalize
+@@Macroedit_instructions@Initialize
+@@Macroedit_mousekeyboardtable@Finalize
+@@Macroedit_mousekeyboardtable@Initialize
+@@Macroedit_record@Finalize
+@@Macroedit_record@Initialize
+@@Macroedit_selectline@Finalize
+@@Macroedit_selectline@Initialize
+@@Macroedit_showifmessage@Finalize
+@@Macroedit_showifmessage@Initialize
+@@Macroedit_statement@Finalize
+@@Macroedit_statement@Initialize
+@@Oapi_device@Finalize
+@@Oapi_device@Initialize
+@@Server_reporttoserver@Finalize
+@@Server_reporttoserver@Initialize
+@@Tab_dragmacroeditor@Finalize
+@@Tab_dragmacroeditor@Initialize
+@@Tab_kernelsystem@Finalize
+@@Tab_kernelsystem@Initialize
+@@Tab_macroeditor@Finalize
+@@Tab_macroeditor@Initialize
+@@Trig_macroplaythread@Finalize
+@@Trig_macroplaythread@Initialize
+@TList<System.Messaging.TMessageManager.TListenerWithId>.arrayofT
+\*.amc
+\*.amc2
+\*.bwp
+\\.amc
+\Device.log
+\FW\WirelessDevice_A7105\Firmware.ini
+\FW\WirelessDevice_A7127\Firmware.ini
+\ScriptsMacros\
+\Software\MacroMouse
+\TArray<System.Generics.Collections.TPair<System.string,System.Bluetooth.TBluetoothLEDevice>>
+\TAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__IBluetoothLEDevice>.TThreadTimer
+\TAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__IBluetoothLEDevice>.TThreadTimerL
+]TAsyncOperation`1.Wait$0$Intf<Winapi.Devices.Bluetooth.IAsyncOperation_1__IBluetoothLEDevice>
+]TAsyncOperation`1.Wait$ActRec<Winapi.Devices.Bluetooth.IAsyncOperation_1__IBluetoothLEDevice>
+]TAsyncOperation`1.Wait$ActRec<Winapi.Devices.Bluetooth.IAsyncOperation_1__IBluetoothLEDevice>T
+_BLUETOOTH_DEVICE_INFO0
+_devicemodeW
+_formDevicePairDialog
+_formDevicePairStartDialog
+_formDevicePairSuccessDialog
+_formImportExportBatchHIDDialog
+_formMultiDeviceManageDialog
+_formReportDialog
+_macroeditEditlineForm
+_macroeditFileDialogForm
+_macroeditInputBoxForm
+_macroeditInstructionsForm
+_macroeditRecordForm
+_macroeditSelectlineForm
+_macroeditShowIfMessageForm
+_macroeditStatementForm
+_tabDragMacroEditor
+_tabKernelSystem
+_tabMacroEditor
+`TAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__IBluetoothLEDevice>.TCancelProcedure
+`TAsyncOperation<Winapi.Devices.Enumeration.IAsyncOperation_1__IVectorView_1__IDeviceInformation>
+`TAsyncOperation<Winapi.Devices.Enumeration.IAsyncOperation_1__IVectorView_1__IDeviceInformation>`
+ADevice
+ADeviceInfo
+ADeviceList
+ADeviceMode
+advgb_MacroArea
+advpb_SwitchKernelSystem_KSYS
+advsb_MacroScrollBar
+AllDiscoveredDevicesp.
+AllowHiding`
+application/vnd.ms-excel.addin.macroenabled.12
+application/vnd.ms-excel.sheet.binary.macroenabled.12
+application/vnd.ms-excel.sheet.macroenabled.12
+application/vnd.ms-excel.template.macroenabled.12
+application/vnd.ms-powerpoint.addin.macroenabled.12
+application/vnd.ms-powerpoint.presentation.macroenabled.12
+application/vnd.ms-powerpoint.slide.macroenabled.12
+application/vnd.ms-powerpoint.slideshow.macroenabled.12
+application/vnd.ms-powerpoint.template.macroenabled.12
+application/vnd.ms-word.document.macroenabled.12
+application/vnd.ms-word.template.macroenabled.12
+ASGHID
+aTEnumerable<System.Generics.Collections.TPair<System.string,System.Bluetooth.TBluetoothLEDevice>>
+aTEnumerable<System.Generics.Collections.TPair<System.string,System.Bluetooth.TBluetoothLEDevice>>'
+aTEnumerator<System.Generics.Collections.TPair<System.string,System.Bluetooth.TBluetoothLEDevice>>
+aTEnumerator<System.Generics.Collections.TPair<System.string,System.Bluetooth.TBluetoothLEDevice>>(
+ATList<System.Messaging.TMessageManager.TListenerWithId>.ParrayofT
+AutoHideDelay
+AutoHideSelection`
+b&Winapi.Devices.Bluetooth.Advertisement
+b?@&Winapi.Devices.Bluetooth.Advertisement
+BatechHID.bmp
+Block device required
+BlockHide
+Blood Pressure Feature
+BluetoothAuthenticateDeviceEx
+BluetoothFindDeviceClose
+BluetoothFindFirstDevice
+BluetoothFindNextDevice
+BluetoothGetDeviceInfo
+BluetoothRemoveDevice
+Boot Keyboard Input Report
+Boot Keyboard Output Report
+Boot Mouse Input Report
+Broken pipe
+bsHidden
+bsWhidbey
+bsWhidbeyStyle
+bt_Kernel3Activate
+bt_Kernel5
+bt_ResumeMacroI_ODME
+bt_ResumeMacroII_OME
+BTList<System.Messaging.TMessageManager.TListenerWithId>.TEmptyFunc
+ButtonHide
+caHidden
+caHide
+CalculateHiddenRows
+CanHide
+Cannot create client socket!Cannot connect to device: (%d) %s
+Cannot hide an MDI Child Form)Cannot change Visible in OnShow or OnHide"Cannot make a visible window modal
+Cannot send data: (%d) %s/Bluetooth: WSALookupServiceBegin error: (%d) %s<Unable to create server socket: the specified GUID is in use8Format type (%d) for Integer conversion is not supported7Format type (%d) for Single conversion is not supported+Characteristic with UUID: %s already exists&Cannot get list of LE devices: (%d) %s1Bluetooth: Create LE device handle error: (%d) %s>Bluetooth: BluetoothGATTGetServices res: %d(%X) error: (%d) %s;Bluetooth: BluetoothGATTGetIncludedServices error:  (%d) %s"SetupDiGetClassDevs error: (%d) %s
+cbCreateFlashReport
+cbCreateFlashReport4
+cbCreateFlashReportClick
+cbCreateFlashReportClick!
+cdDeviceDependent
+cDefaultMacro.amc
+cDragMacroForm
+CGM Features Characteristic
+ck_HidePartialIcon
+ck_HideWheel4DIcon
+ck_Kernel1
+ck_Kernel1_KSYS
+ck_Kernel2
+ck_Kernel2_KSYS
+ck_Kernel3
+ck_Kernel3_KSYS
+ck_Kernel4
+ck_Kernel4_KSYS
+claDarkorchid
+claMediumorchid
+claOrchid
+ClassDeviceMajor
+ClassDeviceMajorString
+ClassDeviceString
+ClassDevicex
+clWebDarkOrchid
+clWebMediumOrchid
+clWebOrchid
+cMACROEDIT
+CoordinateSpaceDevice
+CreateFile error = %d
+CreateFileA
+CreateFilePicture
+CreateFileW
+Cross-device link
+CSC FEATURE
+csDesignerHide
+CTList<System.Messaging.TMessageManager.TListenerWithId>.TEnumerator5
+CTList<System.Messaging.TMessageManager.TListenerWithId>.TEnumerator<a
+CTypedEventHandler_2__IBluetoothLEDevice__IInspectable_Delegate_Base
+Cycling Power Feature Characteristic
+darkorchid
+DefaultGunA.bwp
+DefaultGunB.bwp
+DefaultGunC.bwp
+DefaultGunD.bwp
+DefaultMacro
+DefaultMacro.amc
+Device
+DEVICE INFORMATION
+Device Name
+Device.log
+Device=
+Device=0x
+DeviceAddress
+DeviceCapabilitiesW
+DeviceName
+DevicePair
+DevicePair\
+DevicePair_Background.bmp
+DevicePair_Background.png
+DiscoverDevices
+DLLSTRUCT_MacroEditor
+dmDeviceName
+DongleID=0x%.2X    DeviceID=0x%.2X    Major
+Drag-Macro
+DragMacroEditDelaySetForm
+DragMacroForm
+DrawMacroEditFileDialog
+DrawMacroEditRecord
+DrawMacroEditStatement
+DrawMacroInstructions
+dsa_sign_setup
+DTDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TItem
+DTObjectDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>
+DTObjectDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>M
+e\Software\MacroMouse
+EBluetoothDeviceException
+EBluetoothLEDeviceException
+EBluetoothLEDeviceException,*
+ed_AuthorHID
+ed_ReportRate0
+ed_ReportRate0H
+ed_ReportRate1
+ed_ReportRate1L
+ed_ReportRate2
+ed_ReportRate2P
+ed_ReportRate3
+ed_ReportRate3T
+ed_ReportRate4
+ed_ReportRate4l
+ed_SpecifyHID1
+ed_SpecifyHID1h
+ed_SpecifyHID1KeyPress
+ed_SpecifyHID2
+ed_SpecifyHID2l
+ed_SpecifyHID3
+ed_SpecifyHID3p
+ed_SpecifyHID4
+ed_SpecifyHID5
+English\ScriptsMacros\
+External Report Reference
+ExternalReportReference
+faHiddenCol
+FAllDiscoveredLEDevices
+FAllowHiding
+FAutoHideDelay
+FAutoHideSelection
+FAutoHiding
+FBlockHide
+FBluetoothLEDevice
+FCalculateHiddenRows
+FDevice
+FDeviceAddress
+FDeviceContext
+FDeviceInfo
+FDeviceMode
+FDeviceName
+FDevicePath
+FDiscoveredDevices
+fdoForceShowHidden
+fdoHideMRUPlaces
+fdoHidePinnedPlaces
+Feature not implemented Method called on disposed object
+FeaturesStatistics
+Feter: error: TiomUpgradeUsbDeviceThread sysGetFirmwareCode
+Feter: error: TiomUpgradeUsbDeviceThread::UpgradeSonixFirmware()
+Feter: IOM DBT_DEVICEARRIVAL
+Feter: IOM DBT_DEVICEQUERYREMOVE
+Feter: IOM DBT_DEVICEQUERYREMOVEFAILED
+Feter: IOM DBT_DEVICEREMOVECOMPLETE
+Feter: IOM DBT_DEVICEREMOVEPENDING
+Feter: IOM_DEVICE_CONNECT BEGIN
+Feter: IOM_DEVICE_CONNECT END
+Feter: IOM_DEVICE_DETECTING BEGIN
+Feter: TiomHidThreadId7M BEGIN
+Feter: TiomHidThreadId7M END
+Feter: TiomHidThreadId7M Prepare ReadFile
+FForceRefreshCachedDevices
+FHardwareDeviceInfo
+FHiddenCaret
+FHiddenCtrlList
+FHiddenFields
+FHiddenItems
+FHiddenRowLookup
+FHiddenToolBars
+FHideAfter
+FHideClippedButtons
+FHideDragGrip
+FHideFocusRect
+FHideHint
+FHideLastRow
+FHideLevel
+FHideOnDeActivate
+FHideOnEmpty
+FHidePagesOnDblClick
+FHideScrollBars
+FHideSelection
+FHideState
+FHideTimer
+FHideUnused
+FHintHidePause
+FileManagement_SaveAsMacro
+FinishUpdateDeviceFirmware
+FinishUpdateKernelSystem
+FInternalHiding
+FIsEditHiding
+FLastDiscoveredLEDevices
+FLEDeviceHandle
+FLUHidedControls
+FNeedToHideDesignerCaption
+fnIncludeHiddenColumns
+fnIncludeHiddenRows
+FNumHidden
+FOnConnectedDevice
+FOnDeActivateHide
+FOnDisconnectDevice
+FOnDiscoverLEDevice
+FOnFloatingRibbonHide
+FOnHide
+FOnHideAutoComplete
+FOnHideDetail
+FOnHintHide
+FOnItemDropDownHide
+FOnShouldHide
+ForceRefreshCachedDevices
+FORM_MOUSE_STATUS_SOFTWARE_ENABLE(DeviceInOut):
+formDevicePairDialog
+formDevicePairStartDialog
+formDevicePairSuccessDialog
+formImportExportBatchHIDDialog
+formMultiDeviceManageDialog
+formReportDialog
+FPairedDevices
+freHideMatchCase
+freHideUpDown
+freHideWholeWord
+frHideMatchCase
+frHideUpDown
+frHideWholeWord
+FSaveHiddenCells
+FScannedLEDevices
+FSearchHiddenRows
+FSelHidden
+ftHidden
+ftHide
+GetDeviceCaps
+GetDevicePPI
+GetPairedDevices
+Glucose Features
+gsWhidbey
+hDevice
+hdevice
+Health Device Profile (HDP)
+Health Device Profile (HDP) - Sink
+Health Device Profile (HDP) - Source
+HID Control Point
+HID Information
+HID.DLL
+HIDAT(Scx
+HidD_FreePreparsedData
+HidD_GetAttributes
+HidD_GetFeature
+HidD_GetHidGuid
+HidD_GetIndexedString
+HidD_GetPreparsedData
+HidD_SetFeature
+Hidden`
+HiddenCaret
+HiddenCaret`
+HiddenCount
+HiddenFields
+hiddjk
+Hide Filter
+HideAfter
+HideBalloon
+HideCaret
+HideCellEdit
+HideClippedButtons|
+HideColumn
+HideColumns
+HideCompactWindow
+HideCompactWindowOfAdvToolBars
+HideDetails
+HideDragImage
+HideDropDown
+HideEditor
+HideFixedInplaceEdit
+HideFloatingRibbon
+HideFocusRect0
+HideHint
+HideHoverButtons
+HideInplaceEdit
+HideOnEmpty
+HideOverflowWindow
+HidePagesOnDblClick
+HideRow
+HideRowList
+HideRows
+HideRowsEx
+HideScrollBars(m
+HideSelectedRows
+HideSelection
+HideSelection(
+HideSelection(m
+HideSelection`
+HideShortCutHint
+HideTimeout
+HideUnSelectedRows
+HideUnusedl
+HideValidation
+HidingControl
+HidP_GetCaps
+HintHidePause
+HotkeyPrefixHide
+HTCollectionNotifyEvent<System.Messaging.TMessageManager.TListenerWithId>
+htmlb_DevicePairDescript
+htmlb_FA_Device
+htmlb_Kernel1
+htmlb_Kernel2
+htmlb_Kernel3
+htmlb_Kernel3Status
+htmlb_Kernel4
+htmlb_ReportRate
+htmlb_SwitchKernelSystem
+Human Interface Device
+I.TList`1.Pack[0]$0$Intf<System.Messaging.TMessageManager.TListenerWithId>
+I.TList`1.Pack[1]$0$Intf<System.Messaging.TMessageManager.TListenerWithId>
+I@TList`1.Pack[0]$ActRec<System.Messaging.TMessageManager.TListenerWithId>
+I@TList`1.Pack[1]$ActRec<System.Messaging.TMessageManager.TListenerWithId>
+I@TList`1.Pack[1]$ActRec<System.Messaging.TMessageManager.TListenerWithId>p
+IBluetoothLEDevice
+IBluetoothLEDeviceStatics
+IDeviceInformationStatics
+im_BatchHID
+im_BatchHIDClick
+im_MacroBackground_ODME
+im_MacroIcon
+im_ReportRateExtended
+im_SniperMacroBackground
+im_SpecifyHID1
+im_SpecifyHID1t
+im_SpecifyHID2
+im_SpecifyHID2x
+im_SpecifyHID3
+im_SpecifyHID3|
+im_SpecifyHID4
+im_SpecifyHID5
+imlist_MacroIcon
+INFORM_CHECK_KERNEL
+INFORM_INITIAL_KERNEL
+ini\FeaturesStatistics.ini
+InternetReadFile
+Invalid ImageList Index)Failed to read ImageList data from stream(Failed to write ImageList data to stream$Error creating window device context
+IO_HID.cpp
+ioctlsocket
+IsHiddenColumn
+IsHiddenRow
+IsMacroToWeapon
+IsSelectionHidden
+ITDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TItemArray
+Kernel
+Kernel-Tournament.bmp
+kernel1
+Kernel1.bmp
+Kernel1Enable
+kernel2
+Kernel2.bmp
+Kernel2Enable
+kernel3
+Kernel3.bmp
+KERNEL32
+kernel32
+Kernel32.dll
+kernel32.dll
+KERNEL32.DLL
+kernel3\WeaponKeys.log
+Kernel3_Appreciative_Description33_Region
+Kernel3Appreciative
+Kernel3Enable
+Kernel3FocusGame
+Kernel3Status_Region
+kernel4
+Kernel4.bmp
+Kernel4Enable
+Kernel4FocusGame
+KernelSetting.log
+KernelSystem
+KernelSystemSetting
+KernelSystemSetting\
+KernelSystemSetting_Background.bmp
+KernelSystemSetting_Background.png
+KernelTime
+kTAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDescriptorsResult>
+LastDevice
+LastDiscoveredDevicesX$
+LastHidDevicePath
+LastPairedDevices0
+lb_AuthorHID
+lb_CloseHIDDescript
+lb_DeviceTxRSSI
+lb_Kernel3Memo
+lb_Key3Kernel2
+lb_Key3Kernel3
+lb_Key4Kernel2
+lb_Key4Kernel3
+lb_KeyNKernel2
+lb_KeyNKernel3
+lb_MacroArea_ODME
+lb_MacroCommon
+lb_MacroFileName
+lb_MacroName
+lb_MacroName->Font->Color
+lb_OpenHIDDescript
+lb_Report
+lb_Report0
+lb_Report0X
+lb_Report1
+lb_Report1\
+lb_Report2
+lb_Report2`
+lb_Report3
+lb_Report3d
+lb_Report4
+lb_Report4h
+lb_ReportRate
+lb_SpecifyHID
+lb_SpecifyHIDd
+lgsHidden
+ListHidden
+LN Feature Characteristic
+Macro
+Macro_1
+Macro_2
+Macro_3
+MacroCheats_1
+MacroCheats_2
+MacroCheats_3
+MacroCycle.bmp
+MacroDeleteDirectory
+MacroDeleteFile
+MACROEDIT
+MacroEdit\
+MACROEDIT_Dialog
+MACROEDIT_INFORM_CLOSE_FORM
+MACROEDIT_INFORM_HOOK_KEYBOARD
+MACROEDIT_INFORM_HOOK_MOUSE
+MACROEDIT_InputBoxX
+MACROEDIT_Instructions
+MACROEDIT_Record
+MACROEDIT_SelectLine
+MACROEDIT_ShowIfMessage
+MACROEDIT_Statement
+MacroEditEditLine\
+MacroEditEditLine\English\
+MacroEditEditLine\UI.txt
+macroeditEditlineForm
+MacroEditFileDialog\
+MacroEditFileDialog\English\
+MacroEditFileDialog\UI.txt
+macroeditFileDialogForm
+MacroEditInputBox\
+MacroEditInputBox\English\
+MacroEditInputBox\UI.txt
+macroeditInputBoxForm
+MacroEditInstructions\
+MacroEditInstructions\English\
+MacroEditInstructions\UI.txt
+macroeditInstructionsForm
+MacroEditor
+MacroEditor3
+MacroEditRecord\
+MacroEditRecord\English\
+MacroEditRecord\UI.txt
+macroeditRecordForm
+MacroEditSelectLine\
+MacroEditSelectLine\English\
+MacroEditSelectLine\UI.txt
+macroeditSelectlineForm
+MacroEditShowIfMessage\
+MacroEditShowIfMessage\English\
+MacroEditShowIfMessage\UI.txt
+macroeditShowIfMessageForm
+MacroEditStatement\
+MacroEditStatement\English\
+MacroEditStatement\UI.txt
+macroeditStatementForm
+MacroEnding
+macroending
+MacroError
+MacroExistAlready
+MacroFileDelete
+MacroFileSelected
+MacroGunUltraCombo
+MacRoman
+macroman
+macromania
+MacroMemoryDownloadErrorAndTerminate
+MacroMemoryDownloadErrorToRestore
+MacroModify
+MacroMouseKeyTest.bmp
+MacroName
+MacroPath
+MacroPlus_1
+MacroPlus_2
+MacroPlus_3
+MacroSelectFile
+MacroStop.bmp
+MacroUpDn.bmp
+MacroUsed
+mediumorchid
+mi_AdvancedFeature_
+mi_AdvancedFeature_SyncSeriesLog->Caption
+mi_Hide
+mi_MouseLedFunc_Hide->Caption
+mi_MultiDeviceManage
+mi_SelectMacroFile
+mmi_DevicePair
+msWhidbey
+mTAsyncOperation<Winapi.Devices.Enumeration.IAsyncOperation_1__IVectorView_1__IDeviceInformation>.TThreadTimer
+mTAsyncOperation<Winapi.Devices.Enumeration.IAsyncOperation_1__IVectorView_1__IDeviceInformation>.TThreadTimerL
+MTDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TKeyCollection
+MTDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TKeyCollection;
+MTDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TKeyEnumerator
+MTDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TKeyEnumerator;
+MultiDeviceManage\
+MultiDeviceManage_Background.bmp
+MultiDeviceManageForm
+n.amc
+nDefaultMacro.amc
+NewCreateFileDefault
+NewCreateFileName
+NewMacro+
+NewMacroCatalog
+nkernel32
+No space left on device
+No such device
+No such device or address
+Not same device
+Not supported on this platform6Bluetooth device not found: disconnected or turned off#Channel is closed, cannot read data'Error sending data over current channel&Not applicable to this descriptor type#Error getting service list: (%d) %s"Error getting device info: (%d) %s"Error trying to accept connections
+nTAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDeviceServicesResult>
+nTAsyncOperation`1.Wait$0$Intf<Winapi.Devices.Enumeration.IAsyncOperation_1__IVectorView_1__IDeviceInformation>
+nTAsyncOperation`1.Wait$ActRec<Winapi.Devices.Enumeration.IAsyncOperation_1__IVectorView_1__IDeviceInformation>
+nTAsyncOperation`1.Wait$ActRec<Winapi.Devices.Enumeration.IAsyncOperation_1__IVectorView_1__IDeviceInformation>d
+NTDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TPairEnumerator;
+NTDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TPairEnumeratorp
+NumHiddenColumns
+NumHiddenRows
+ofForceShowHidden
+ofHideReadOnly
+OnConnectedDevice
+OnDeActivateHide
+OnDisconnectDevice
+OnDiscoverLEDevice`
+OnFloatingRibbonHidehN
+OnHide
+OnHideDetail
+OnHintHideh
+OnItemDropDownHide
+orchid
+Oscar-Macro
+OscarDragMacroEditor\
+OscarDragMacroEditor\English\
+OscarDragMacroEditor\UI.txt
+OscarDragMacroEditorDelaySet\
+OscarDragMacroEditorDelaySet\English\
+OscarDragMacroEditorFileDialog\
+OscarDragMacroEditorFileDialog\English\
+OscarDragMacroEditorFileDialog\UI.txt
+OscarDragMacroEditorInstructions\
+OscarDragMacroEditorInstructions\English\
+OscarDragMacroEditorInstructions\UI.txt
+OscarDragMacroEditorRecord\
+OscarDragMacroEditorRecord\English\
+OscarDragMacroEditorRecord\UI.txt
+OscarDragMacroEditorStatement\
+OscarDragMacroEditorStatement\English\
+OscarDragMacroEditorStatement\UI.txt
+osWhidbey
+oTAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattCharacteristicsResult>
+OTAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__IBluetoothLEDevice>
+OTAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__IBluetoothLEDevice>L(
+OTDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TValueCollection0
+OTDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TValueCollection;
+OTDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TValueEnumerator(
+OTDictionary<System.string,System.Bluetooth.TBluetoothLEDevice>.TValueEnumerator;
+PairedDevices
+pDefaultGunA.bwp
+pDefaultGunB.bwp
+pDefaultGunC.bwp
+pDefaultGunD.bwp
+PDeviceModeW
+PDVTargetDevice
+pfDevice
+pfHidden
+pl_Macro_ODME
+pl_MacroArea
+pl_MacroAreaResize
+pl_MacroBottomArea
+pl_MacroClientArea
+pl_MacroLeftArea
+pl_MacroTopArea
+PleaseCreateMacro
+PleaseInputMacroName
+PleaseSelectedMacroName
+pReportBuffer != NULL
+printProofSetupObjc
+proofSetup
+Pulse Oximetry Features
+qTAsyncOperation<Winapi.Devices.Enumeration.IAsyncOperation_1__IVectorView_1__IDeviceInformation>.TCancelProcedure
+qYou have entered the tournament mode!  We have disabled all the software macro functions from your current mouse.
+rb_Device
+rb_MacroSelect
+re planning to upload your macro to the script exchange site
+ReadFile
+ReferenceDevice
+RegisterDeviceNotificationW
+RenameMacro+
+RenameMacroCatalog
+RenameMacroName
+Report
+Report Map
+Report Rate
+Report Reference
+Report[0] :
+Report[1] :
+Report[2] :
+Report[3] :
+Report[4] :
+ReportRate
+reportrate
+ReportRateLine.bmp
+ReportReference!EnvironmentalSensingConfiguration
+Request rejected or failed.5Request rejected because SOCKS server cannot connect.QRequest rejected because the client program and identd report different user-ids.
+ResetUpdate
+ResumeMacroI.bmp
+ResumeMacroII.bmp
+RSC Feature
+SaveAsMacro+
+SaveHidden
+SaveHiddenCells`
+SdbDeviceInfo
+SearchHiddenRows
+SetUp
+SETUPAPI.DLL
+SetUpdateOptions
+SetupDiDestroyDeviceInfoList
+SetupDiEnumDeviceInfo
+SetupDiEnumDeviceInterfaces
+SetupDiGetClassDevsW
+SetupDiGetDeviceInterfaceDetailW
+SetupDiGetDevicePropertyW
+SetupInternalLabel
+SfileMacroContent
+SfileMacroContent[6]
+SharkSniperKey3Kernel2
+SharkSniperKey3Kernel3
+SharkSniperKey4Kernel2
+SharkSniperKey4Kernel3
+SharkSniperKeyNKernel2
+SharkSniperKeyNKernel3
+ShouldHideHint
+SiomHidDeviceInfo
+sMacroName
+sMacroPath
+SpecifyHIDFrame.bmp
+std::_Vector_val<SioDevicePipe,std::allocator<SioDevicePipe> >
+std::_Vector_val<SiomDeviceData,std::allocator<SiomDeviceData> >
+std::_Vector_val<SioRgbKeyboardPipe,std::allocator<SioRgbKeyboardPipe> >
+std::_Vector_val<SioRgbMousePipe,std::allocator<SioRgbMousePipe> >
+std::_Vector_val<SioRgbPadPipe,std::allocator<SioRgbPadPipe> >
+std::_Vector_val<SodmeMacroFlagTag,std::allocator<SodmeMacroFlagTag> >
+std::_Vector_val<TdbFeatureStatisticsRecord,std::allocator<TdbFeatureStatisticsRecord> >
+std::vector<SioDevicePipe,std::allocator<SioDevicePipe> >
+std::vector<SiomDeviceData,std::allocator<SiomDeviceData> >
+std::vector<SioRgbKeyboardPipe,std::allocator<SioRgbKeyboardPipe> >
+std::vector<SioRgbMousePipe,std::allocator<SioRgbMousePipe> >
+std::vector<SioRgbPadPipe,std::allocator<SioRgbPadPipe> >
+std::vector<SodmeMacroFlagTag,std::allocator<SodmeMacroFlagTag> >
+std::vector<TdbFeatureStatisticsRecord,std::allocator<TdbFeatureStatisticsRecord> >
+TAB_MACROCHEATS
+TAB_MACROEDITOR
+tabDragMacroEditor
+tabKernelSystem
+tabMacroEditor
+tagDVTARGETDEVICE
+TAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattCharacteristicsResult>.TCancelProcedure
+TAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDeviceServicesResult>.TCancelProcedure
+TBCompactWinHide
+TBluetoothCustomDevice
+TBluetoothCustomDevice|
+TBluetoothDevice
+TBluetoothDevice&
+TBluetoothDevice`
+TBluetoothDeviceList
+TBluetoothDeviceState
+TBluetoothLEDevice
+TBluetoothLEDevice;
+TBluetoothLEDeviceDictionary
+TBluetoothLEDeviceList
+TBluetoothLEDeviceList@.
+TButton!bt_ImportKernel3CertificationFile
+TConnectLEDeviceEvent
+TCustomHintShowHideThread
+TCustomHintShowHideThreadH
+TdbFeaturesStatistics
+TdbFeaturesStatistics *
+TdbFeaturesStatisticsData
+TdbFeatureStatisticsRecord
+TdbFeatureStatisticsRecord *
+tdDeviceNameOffset
+TDiscoverLEDeviceEvent
+TestGun\A-TestGun.bwp
+TestGun\B-TestGun.bwp
+TestGun\C-TestGun.bwp
+TestGun\D-TestGun.bwp
+TestMacro\TestMacro.amc
+TestMacro\TestMacro.bmc
+tfHidePrefix
+TFontDialogDevice
+TformDevicePairDialog
+TFORMDEVICEPAIRDIALOG
+TformDevicePairDialog *
+TFORMDEVICEPAIRSTARTDIALOG
+TformDevicePairStartDialog
+TformDevicePairStartDialog *
+TFORMDEVICEPAIRSUCCESSDIALOG
+TformDevicePairSuccessDialog
+TformDevicePairSuccessDialog *
+TformImportExportBatchHIDDialog
+TFORMIMPORTEXPORTBATCHHIDDIALOG
+TformImportExportBatchHIDDialog *
+TFORMMULTIDEVICEMANAGEDIALOG
+TformMultiDeviceManageDialog
+TformMultiDeviceManageDialog *
+TformMultiDeviceManageDialog|~<
+TformReportDialog
+TFORMREPORTDIALOG
+TformReportDialog *
+TGattDeviceRSSIEvent
+This device is not paired'This device was explicitly disconnected
+TIdReadFileExclusiveStream5
+TIdReadFileExclusiveStreamp]
+TioDeviceEvent
+TioDeviceEvent *
+TiomHidThreadId7M
+TiomHidThreadId7M *
+TiomMultiDevice
+TiomMultiDevice *
+TiomUpgradeUsbDeviceThread
+TiomUpgradeUsbDeviceThread *
+TipsForInvalidReportRate
+TMACROEDITEDITLINEFORM
+TmacroeditEditlineForm
+TmacroeditEditlineForm *
+TmacroeditFileDialogForm
+TMACROEDITFILEDIALOGFORM
+TmacroeditFileDialogForm *
+TMACROEDITINPUTBOXFORM
+TmacroeditInputBoxForm
+TmacroeditInputBoxForm *
+TmacroeditInputBoxForm8!B
+TmacroeditInstructionsForm
+TMACROEDITINSTRUCTIONSFORM
+TmacroeditInstructionsForm *
+TmacroeditInstructionsForm\MB
+TmacroeditRecordForm
+TMACROEDITRECORDFORM
+TmacroeditRecordForm *
+TmacroeditRecordForm,
+TMACROEDITSELECTLINEFORM
+TmacroeditSelectlineForm
+TmacroeditSelectlineForm *
+TMACROEDITSHOWIFMESSAGEFORM
+TmacroeditShowIfMessageForm
+TmacroeditShowIfMessageForm *
+TmacroeditShowIfMessageFormD
+TMACROEDITSTATEMENTFORM
+TmacroeditStatementForm
+TmacroeditStatementForm *
+TMacRomanCodec5
+TMacRomanCodecX
+TMessageManager.TListenerWithId
+tmHide
+TPrinterDevice
+TPrinterDeviceH
+TRibbonHideEvent
+TserverReportToServer
+TserverReportToServer *
+tsWhidbey
+TtabDragMacroEditor
+TTABDRAGMACROEDITOR
+TtabDragMacroEditor *
+TTABKERNELSYSTEM
+TtabKernelSystem
+TtabKernelSystem *
+TtabKernelSystem4
+TtabMacroEditor
+TTABMACROEDITOR
+TtabMacroEditor *
+TWinBluetoothDevice
+TWinBluetoothDeviceN
+TWinBluetoothLEDevice<
+TWinBluetoothLEDevicedF
+TWinRTBluetoothLEDevice
+TWinRTBluetoothLEDevice:
+ucReportRate[0]
+ulClassofDevice
+UnHideColumn
+UnHideColumns
+UnHideColumnsAll
+UnHideRow
+UnHideRowList
+UnHideRows
+UnHideRowsAll
+UnHideSelection
+UnregisterDeviceNotification
+UpdateKernelSystem
+usb device
+UserReportHardwareInformation
+vsReport
+Winapi.Devices.Bluetooth
+Winapi.Devices.Enumeration
+Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementPublisher
+Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementWatcher
+Windows.Devices.Bluetooth.Advertisement.BluetoothLEManufacturerData
+Windows.Devices.Bluetooth.BluetoothLEDevice
+Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic
+Windows.Devices.Bluetooth.GenericAttributeProfile.GattDescriptor
+Windows.Devices.Bluetooth.GenericAttributeProfile.GattDescriptorUuids
+Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService
+Windows.Devices.Bluetooth.GenericAttributeProfile.GattReliableWriteTransaction
+Windows.Devices.Enumeration.DeviceInformation
+WirelessDevice_A7105\
+WirelessDevice_A7127\
+WriteFile
+WSAIoctl
+WSANSPIoctl
+x&Winapi.Devices.Bluetooth.Advertisement
+xTAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDescriptorsResult>.TThreadTimer
+xTAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDescriptorsResult>.TThreadTimerL
+yTAsyncOperation`1.Wait$0$Intf<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDescriptorsResult>
+yTAsyncOperation`1.Wait$ActRec<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDescriptorsResult>
+yTAsyncOperation`1.Wait$ActRec<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDescriptorsResult>8
+{TAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDeviceServicesResult>.TThreadTimer
+{TAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDeviceServicesResult>.TThreadTimerL
+|TAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattCharacteristicsResult>.TThreadTimer
+|TAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattCharacteristicsResult>.TThreadTimerL
+|TAsyncOperation<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDescriptorsResult>.TCancelProcedure
+|TAsyncOperation`1.Wait$0$Intf<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDeviceServicesResult>
+|TAsyncOperation`1.Wait$ActRec<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDeviceServicesResult>
+|TAsyncOperation`1.Wait$ActRec<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattDeviceServicesResult>\
+}TAsyncOperation`1.Wait$0$Intf<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattCharacteristicsResult>
+}TAsyncOperation`1.Wait$ActRec<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattCharacteristicsResult>
+}TAsyncOperation`1.Wait$ActRec<Winapi.Devices.Bluetooth.IAsyncOperation_1__GenericAttributeProfile_IGattCharacteristicsResult>h.
+
+=== C:\Program Files (x86)\Bloody7\Bloody7\BridgeToUser.exe ===
+ImageBase=0x400000 EntryPoint=0x1295
+-- imports --
+0x406018 KERNEL32.dll!GetCurrentProcess
+0x40601c KERNEL32.dll!lstrlenA
+0x406020 KERNEL32.dll!GetCommandLineA
+0x406024 KERNEL32.dll!HeapSetInformation
+0x406028 KERNEL32.dll!GetStartupInfoW
+0x40602c KERNEL32.dll!TerminateProcess
+0x406030 KERNEL32.dll!UnhandledExceptionFilter
+0x406034 KERNEL32.dll!SetUnhandledExceptionFilter
+0x406038 KERNEL32.dll!IsDebuggerPresent
+0x40603c KERNEL32.dll!GetProcAddress
+0x406040 KERNEL32.dll!GetModuleHandleW
+0x406044 KERNEL32.dll!ExitProcess
+0x406048 KERNEL32.dll!DecodePointer
+0x40604c KERNEL32.dll!WriteFile
+0x406050 KERNEL32.dll!GetStdHandle
+0x406054 KERNEL32.dll!GetModuleFileNameW
+0x406058 KERNEL32.dll!GetModuleFileNameA
+0x40605c KERNEL32.dll!FreeEnvironmentStringsW
+0x406060 KERNEL32.dll!WideCharToMultiByte
+0x406064 KERNEL32.dll!GetEnvironmentStringsW
+0x406068 KERNEL32.dll!SetHandleCount
+0x40606c KERNEL32.dll!InitializeCriticalSectionAndSpinCount
+0x406070 KERNEL32.dll!GetFileType
+0x406074 KERNEL32.dll!DeleteCriticalSection
+0x406078 KERNEL32.dll!EncodePointer
+0x40607c KERNEL32.dll!TlsAlloc
+0x406080 KERNEL32.dll!TlsGetValue
+0x406084 KERNEL32.dll!TlsSetValue
+0x406088 KERNEL32.dll!TlsFree
+0x40608c KERNEL32.dll!InterlockedIncrement
+0x406090 KERNEL32.dll!SetLastError
+0x406094 KERNEL32.dll!GetCurrentThreadId
+0x406098 KERNEL32.dll!GetLastError
+0x40609c KERNEL32.dll!InterlockedDecrement
+0x4060a0 KERNEL32.dll!HeapCreate
+0x4060a4 KERNEL32.dll!QueryPerformanceCounter
+0x4060a8 KERNEL32.dll!GetTickCount
+0x4060ac KERNEL32.dll!GetCurrentProcessId
+0x4060b0 KERNEL32.dll!GetSystemTimeAsFileTime
+0x4060b4 KERNEL32.dll!LeaveCriticalSection
+0x4060b8 KERNEL32.dll!EnterCriticalSection
+0x4060bc KERNEL32.dll!LoadLibraryW
+0x4060c0 KERNEL32.dll!GetCPInfo
+0x4060c4 KERNEL32.dll!GetACP
+0x4060c8 KERNEL32.dll!GetOEMCP
+0x4060cc KERNEL32.dll!IsValidCodePage
+0x4060d0 KERNEL32.dll!HeapFree
+0x4060d4 KERNEL32.dll!Sleep
+0x4060d8 KERNEL32.dll!RtlUnwind
+0x4060dc KERNEL32.dll!HeapSize
+0x4060e0 KERNEL32.dll!LCMapStringW
+0x4060e4 KERNEL32.dll!MultiByteToWideChar
+0x4060e8 KERNEL32.dll!GetStringTypeW
+0x4060ec KERNEL32.dll!HeapAlloc
+0x4060f0 KERNEL32.dll!HeapReAlloc
+0x4060f4 KERNEL32.dll!IsProcessorFeaturePresent
+-- relevant strings --
+- unable to open console device
+IsProcessorFeaturePresent
+KERNEL32.dll
+KERNEL32.DLL
+WriteFile
+
+=== C:\Program Files (x86)\Bloody7\Bloody7\Dll\DLL_PenSuit.dll ===
+ImageBase=0x10000000 EntryPoint=0x24df
+-- imports --
+0x1000c01c KERNEL32.dll!IsProcessorFeaturePresent
+0x1000c020 KERNEL32.dll!GetStringTypeW
+0x1000c024 KERNEL32.dll!MultiByteToWideChar
+0x1000c028 KERNEL32.dll!LCMapStringW
+0x1000c02c KERNEL32.dll!IsValidCodePage
+0x1000c030 KERNEL32.dll!GetOEMCP
+0x1000c034 KERNEL32.dll!GetACP
+0x1000c038 KERNEL32.dll!GetCPInfo
+0x1000c03c KERNEL32.dll!LoadLibraryW
+0x1000c040 KERNEL32.dll!QueryPerformanceCounter
+0x1000c044 KERNEL32.dll!EnterCriticalSection
+0x1000c048 KERNEL32.dll!LeaveCriticalSection
+0x1000c04c KERNEL32.dll!HeapReAlloc
+0x1000c050 KERNEL32.dll!RtlUnwind
+0x1000c054 KERNEL32.dll!GetModuleFileNameW
+0x1000c058 KERNEL32.dll!WriteFile
+0x1000c05c KERNEL32.dll!GetSystemTimeAsFileTime
+0x1000c060 KERNEL32.dll!GetCurrentProcessId
+0x1000c064 KERNEL32.dll!GetTickCount
+0x1000c068 KERNEL32.dll!HeapDestroy
+0x1000c06c KERNEL32.dll!HeapCreate
+0x1000c070 KERNEL32.dll!QueryPerformanceFrequency
+0x1000c074 KERNEL32.dll!CloseHandle
+0x1000c078 KERNEL32.dll!WaitForSingleObject
+0x1000c07c KERNEL32.dll!CreateThread
+0x1000c080 KERNEL32.dll!CreateEventW
+0x1000c084 KERNEL32.dll!SetEvent
+0x1000c088 KERNEL32.dll!EncodePointer
+0x1000c08c KERNEL32.dll!DecodePointer
+0x1000c090 KERNEL32.dll!GetCurrentThreadId
+0x1000c094 KERNEL32.dll!GetCommandLineA
+0x1000c098 KERNEL32.dll!TerminateProcess
+0x1000c09c KERNEL32.dll!GetCurrentProcess
+0x1000c0a0 KERNEL32.dll!UnhandledExceptionFilter
+0x1000c0a4 KERNEL32.dll!SetUnhandledExceptionFilter
+0x1000c0a8 KERNEL32.dll!IsDebuggerPresent
+0x1000c0ac KERNEL32.dll!HeapAlloc
+0x1000c0b0 KERNEL32.dll!GetLastError
+0x1000c0b4 KERNEL32.dll!HeapFree
+0x1000c0b8 KERNEL32.dll!Sleep
+0x1000c0bc KERNEL32.dll!HeapSize
+0x1000c0c0 KERNEL32.dll!GetProcAddress
+0x1000c0c4 KERNEL32.dll!GetModuleHandleW
+0x1000c0c8 KERNEL32.dll!ExitProcess
+0x1000c0cc KERNEL32.dll!RaiseException
+0x1000c0d0 KERNEL32.dll!TlsAlloc
+0x1000c0d4 KERNEL32.dll!TlsGetValue
+0x1000c0d8 KERNEL32.dll!TlsSetValue
+0x1000c0dc KERNEL32.dll!TlsFree
+0x1000c0e0 KERNEL32.dll!InterlockedIncrement
+0x1000c0e4 KERNEL32.dll!SetLastError
+0x1000c0e8 KERNEL32.dll!InterlockedDecrement
+0x1000c0ec KERNEL32.dll!SetHandleCount
+0x1000c0f0 KERNEL32.dll!GetStdHandle
+0x1000c0f4 KERNEL32.dll!InitializeCriticalSectionAndSpinCount
+0x1000c0f8 KERNEL32.dll!GetFileType
+0x1000c0fc KERNEL32.dll!GetStartupInfoW
+0x1000c100 KERNEL32.dll!DeleteCriticalSection
+0x1000c104 KERNEL32.dll!GetModuleFileNameA
+0x1000c108 KERNEL32.dll!FreeEnvironmentStringsW
+0x1000c10c KERNEL32.dll!WideCharToMultiByte
+0x1000c110 KERNEL32.dll!GetEnvironmentStringsW
+-- relevant strings --
+- unable to open console device
+IsProcessorFeaturePresent
+KERNEL32.dll
+KERNEL32.DLL
+WriteFile
+
+=== C:\Program Files (x86)\Bloody7\Bloody7\Dll\DLL_ZoomControl.dll ===
+ImageBase=0x10000000 EntryPoint=0x5976
+-- imports --
+0x1000f000 KERNEL32.dll!InterlockedDecrement
+0x1000f004 KERNEL32.dll!lstrcmpW
+0x1000f008 KERNEL32.dll!FindFirstFileW
+0x1000f00c KERNEL32.dll!FindClose
+0x1000f010 KERNEL32.dll!Sleep
+0x1000f014 KERNEL32.dll!lstrlenW
+0x1000f018 KERNEL32.dll!lstrcmpiW
+0x1000f01c KERNEL32.dll!LocalFree
+0x1000f020 KERNEL32.dll!GetStringTypeW
+0x1000f024 KERNEL32.dll!MultiByteToWideChar
+0x1000f028 KERNEL32.dll!LCMapStringW
+0x1000f02c KERNEL32.dll!IsValidCodePage
+0x1000f030 KERNEL32.dll!GetOEMCP
+0x1000f034 KERNEL32.dll!GetACP
+0x1000f038 KERNEL32.dll!GetCPInfo
+0x1000f03c KERNEL32.dll!LoadLibraryW
+0x1000f040 KERNEL32.dll!HeapReAlloc
+0x1000f044 KERNEL32.dll!RtlUnwind
+0x1000f048 KERNEL32.dll!EnterCriticalSection
+0x1000f04c KERNEL32.dll!LeaveCriticalSection
+0x1000f050 KERNEL32.dll!GetModuleFileNameW
+0x1000f054 KERNEL32.dll!WriteFile
+0x1000f058 KERNEL32.dll!GetSystemTimeAsFileTime
+0x1000f05c KERNEL32.dll!GetCurrentProcessId
+0x1000f060 KERNEL32.dll!GetTickCount
+0x1000f064 KERNEL32.dll!QueryPerformanceCounter
+0x1000f068 KERNEL32.dll!HeapDestroy
+0x1000f06c KERNEL32.dll!HeapCreate
+0x1000f070 KERNEL32.dll!GetEnvironmentStringsW
+0x1000f074 KERNEL32.dll!WideCharToMultiByte
+0x1000f078 KERNEL32.dll!FreeEnvironmentStringsW
+0x1000f07c KERNEL32.dll!GetModuleFileNameA
+0x1000f080 KERNEL32.dll!DeleteCriticalSection
+0x1000f084 KERNEL32.dll!GetStartupInfoW
+0x1000f088 KERNEL32.dll!GetFileType
+0x1000f08c KERNEL32.dll!InitializeCriticalSectionAndSpinCount
+0x1000f090 KERNEL32.dll!GetStdHandle
+0x1000f094 KERNEL32.dll!SetHandleCount
+0x1000f098 KERNEL32.dll!EncodePointer
+0x1000f09c KERNEL32.dll!DecodePointer
+0x1000f0a0 KERNEL32.dll!GetCurrentThreadId
+0x1000f0a4 KERNEL32.dll!GetCommandLineA
+0x1000f0a8 KERNEL32.dll!TerminateProcess
+0x1000f0ac KERNEL32.dll!GetCurrentProcess
+0x1000f0b0 KERNEL32.dll!UnhandledExceptionFilter
+0x1000f0b4 KERNEL32.dll!SetUnhandledExceptionFilter
+0x1000f0b8 KERNEL32.dll!IsDebuggerPresent
+0x1000f0bc KERNEL32.dll!GetLastError
+0x1000f0c0 KERNEL32.dll!HeapFree
+0x1000f0c4 KERNEL32.dll!HeapAlloc
+0x1000f0c8 KERNEL32.dll!RaiseException
+0x1000f0cc KERNEL32.dll!IsProcessorFeaturePresent
+0x1000f0d0 KERNEL32.dll!HeapSize
+0x1000f0d4 KERNEL32.dll!GetProcAddress
+0x1000f0d8 KERNEL32.dll!GetModuleHandleW
+0x1000f0dc KERNEL32.dll!ExitProcess
+0x1000f0e0 KERNEL32.dll!TlsAlloc
+0x1000f0e4 KERNEL32.dll!TlsGetValue
+0x1000f0e8 KERNEL32.dll!TlsSetValue
+0x1000f0ec KERNEL32.dll!TlsFree
+0x1000f0f0 KERNEL32.dll!InterlockedIncrement
+0x1000f0f4 KERNEL32.dll!SetLastError
+-- relevant strings --
+- unable to open console device
+IsProcessorFeaturePresent
+KERNEL32.dll
+KERNEL32.DLL
+WriteFile
+

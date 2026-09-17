@@ -1,0 +1,39 @@
+# Build output
+Output/
+Debug/
+Release/
+x64/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.ipch
+
+# Build intermediates
+*.obj
+*.pdb
+*.iobj
+*.ipdb
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+*.recipe
+*.idb
+*.pch
+*.res
+*.exp
+*.lib
+
+# Binaries
+*.exe
+*.dll

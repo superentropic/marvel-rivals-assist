@@ -1,0 +1,9 @@
+ThirdParty/
+SDK/
+Output/
+Build/
+rivals.filters
+rivals.sln
+rivals.user
+rivals.vsxproj
+rivals.vsxproj.user

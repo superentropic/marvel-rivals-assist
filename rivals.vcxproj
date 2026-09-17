@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e12ce0eb-590e-4cfa-a1a5-91b1e56ccd8d}</ProjectGuid>
+    <RootNamespace>d3d12imgui</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>rivals</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(InternalAim)'=='true'">
+    <AimModeDefine>INTERNAL_AIM_ONLY</AimModeDefine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>.\Output\Binaries</OutDir>
+    <IntDir>Output\Intermediate\</IntDir>
+    <TargetName>msaud_drv</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;D3D12IMGUI_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;D3D12IMGUI_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;D3D12IMGUI_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;D3D12IMGUI_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;TRIGGER_ONLY_EXTERNAL;$(AimModeDefine);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)SDK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/FS /utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="SDK\SDK\Basic.cpp" />
+    <ClCompile Include="SDK\SDK\CoreUObject_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Engine_functions.cpp" />
+    <ClCompile Include="SDK\SDK\Marvel_functions.cpp" />
+    <ClCompile Include="ThirdParty\ImGui\imgui.cpp" />
+    <ClCompile Include="ThirdParty\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="ThirdParty\ImGui\imgui_impl_dx12.cpp" />
+    <ClCompile Include="ThirdParty\ImGui\imgui_knobs.cpp" />
+    <ClCompile Include="ThirdParty\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="ThirdParty\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="ThirdParty\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Custom\VTableHook.h" />
+    <ClInclude Include="SDK\SDK\Basic.hpp" />
+    <ClInclude Include="SDK\SDK\CoreUObject_classes.hpp" />
+    <ClInclude Include="SDK\SDK\CoreUObject_parameters.hpp" />
+    <ClInclude Include="SDK\SDK\CoreUObject_structs.hpp" />
+    <ClInclude Include="SDK\SDK\Engine_classes.hpp" />
+    <ClInclude Include="SDK\SDK\Engine_parameters.hpp" />
+    <ClInclude Include="SDK\SDK\Engine_structs.hpp" />
+    <ClInclude Include="SDK\SDK\Marvel_classes.hpp" />
+    <ClInclude Include="SDK\SDK\Marvel_parameters.hpp" />
+    <ClInclude Include="SDK\SDK\Marvel_structs.hpp" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="ThirdParty\ImGui\imconfig.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_impl_dx12.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_settings.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_elements.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_knobs.h" />
+    <ClInclude Include="ThirdParty\ImGui\font.h" />
+    <ClInclude Include="ThirdParty\ImGui\notify.h" />
+    <ClInclude Include="Style.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_internal.h" />
+    <ClInclude Include="ThirdParty\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="ThirdParty\ImGui\imstb_textedit.h" />
+    <ClInclude Include="ThirdParty\ImGui\imstb_truetype.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="ThirdParty\CumHook\CumHook.h" />
+    <ClInclude Include="ThirdParty\nlohmann\adl_serializer.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\byte_container_with_subtype.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\abi_macros.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\conversions\from_json.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\conversions\to_chars.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\conversions\to_json.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\exceptions.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\hash.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\input\binary_reader.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\input\input_adapters.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\input\json_sax.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\input\lexer.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\input\parser.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\input\position_t.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\iterators\internal_iterator.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\iterators\iteration_proxy.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\iterators\iterator_traits.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\iterators\iter_impl.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\iterators\json_reverse_iterator.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\iterators\primitive_iterator.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\json_custom_base_class.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\json_pointer.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\json_ref.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\macro_scope.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\macro_unscope.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\meta\call_std\begin.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\meta\call_std\end.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\meta\cpp_future.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\meta\detected.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\meta\identity_tag.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\meta\is_sax.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\meta\std_fs.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\meta\type_traits.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\meta\void_t.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\output\binary_writer.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\output\output_adapters.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\output\serializer.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\string_concat.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\string_escape.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\string_utils.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\detail\value_t.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\json.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\json_fwd.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\ordered_map.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\thirdparty\hedley\hedley.hpp" />
+    <ClInclude Include="ThirdParty\nlohmann\thirdparty\hedley\hedley_undef.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
